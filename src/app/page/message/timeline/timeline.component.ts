@@ -35,7 +35,7 @@ export class TimelineComponent implements OnInit {
     ngOnInit(): void {
         this.loadingDone = false;
         this.data
-            .getLiveTextItems("timelinee")
+            .getLiveTextItems("timeline")
             .subscribe(
                 (res) => {
                     // console.log((<any>res));
